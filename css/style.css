@@ -1,0 +1,92 @@
+
+ 
+ :root {
+    --primary-color: #9871f4;
+    --secondary-color: #5f575b;
+    --accent-color: #cdfdfa;
+    --gradient: linear-gradient(to top, #fff 0%, #a6c1ee 100%);
+    text-align: center;
+        }
+h2 {
+     margin-bottom: auto;
+    font-size: 32px; 
+    }
+h3 {
+    font-size: 24px; 
+    color:var(--secondary-color);
+    }
+a {
+    text-decoration: none;
+    }
+.buttons {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.buttons a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.about {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  
+}
+.contact {
+    background: var(--primary-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+
+}
+.contact:hover {
+    background: white;
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-shadow:none;
+}
+.about:hover {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.main {
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--primary-color);
+}
+h2 {
+            margin: auto;
+            color:var(--secondary-color);
+    }
+.colomn {
+            display: flex;
+            margin: 20px;
+        }
+.something {
+        margin:20px;
+        border: 1px;
+        border-radius: 6px;
+        background: var(--accent-color);
+        padding: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+       }
+h3 {
+            font-size: 52px;
+            margin-bottom: auto; 
+     }
+ .mailto {
+           margin: auto; 
+           font-size: 24px;
+           color: var(--primary-color);
+           text-decoration: none;
+        }
+.mailto:hover {
+            text-decoration: underline;
+            color: var(--primary-color);
+        }
+
